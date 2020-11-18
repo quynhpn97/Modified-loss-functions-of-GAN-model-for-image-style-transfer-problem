@@ -27,6 +27,8 @@ def get_features(image, model, layers=None):
 class DualConsistencyGAN(BaseGAN):
     def __init__(self, opt):
         BaseGAN.__init__(self, opt)
+        self.weight_content = opt.weight_content
+        self.weight_style = opt.weight_style
 
     def set_input(opt):
         BaseGAN.set_input(self, opt)
@@ -57,6 +59,6 @@ class DualConsistencyGAN(BaseGAN):
         self.style_loss = torch.mean((features_fake['relu'] - features_style['relu'])**2)
 
         # Loss
-        self.loss_G = self.loss_G_A +  0.1*self.content_loss + 1*self.style_loss
+        self.loss_G = self.loss_G_A +  self.weight_content*self.content_loss + self.weight_style*self.style_loss
 
         self.loss_G.backward()
