@@ -4,8 +4,8 @@
 <table>
   <tr>
     <td> Content
-    <td>
-    <td>
+    <td> Dual Consistency loss GAN
+    <td> Cycle GAN
     <td> Style
   </tr>
   
@@ -32,8 +32,8 @@
 <table>
   <tr>
     <td> Content 
-    <td>
-    <td>
+    <td> Dual Consistency loss GAN
+    <td> Cycle GAN
     <td> Style
   </tr>
   
