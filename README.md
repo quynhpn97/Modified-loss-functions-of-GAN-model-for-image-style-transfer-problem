@@ -2,7 +2,7 @@
 
 Image style transfer is an interesting research in computer vision. The combination of artificial intelligence and art makes this technique highly concerned in the relevant technical fields and art fields. Recent studies have focused on improving the relationship between object and style. There are many proposals for the loss function to improve this.
 
-Specifically, I have summarized some proposals for loss function and experimented with some models including CycleGAN [[2]](#2), GAN model with dual-consistency loss [[1]](#1).
+Specifically, I have summarized some proposals for loss function and deployed with some models including CycleGAN [[2]](#2), GAN model with dual-consistency loss [[1]](#1).
 
 Details on: 
 
