@@ -4,7 +4,7 @@ Image style transfer is an interesting research in computer vision. The combinat
 
 Specifically, I have summarized some proposals for loss function and deployed with some models including CycleGAN [[2]](#2), GAN model with dual-consistency loss [[1]](#1).
 
-Details on: 
+Details: https://quynhpn97.github.io/blogs.github.io/projects/image_transformer.html 
 
 Results and comparison:
 <table>
